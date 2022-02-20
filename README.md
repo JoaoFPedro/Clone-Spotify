@@ -1,2 +1,2 @@
 # Clone-Spotify
-Tela inicila do Spotify com HTML e CSS 
+Tela inicial do Spotify com HTML e CSS 
