@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    font-family: 'Roboto', sans-serif;
+   
+}
+/* NavBar*/
+#navbar{
+    display: flex;
+    background-color: rgba(158, 182, 23);
+    color: white;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+.navbar-container{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+    
+}
+.logo{
+    height: 60px;
+    width: auto;
+      
+}
+.navbar-itens{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    
+}
+.navbar-item{
+    padding: 0 20px;
+}
+.navbar-item:nth-child(3){
+    border-right: 1px solid white;
+}
+/* ShowCase*/
+.showcase{
+     height: 100vh;
+     display: flex; 
+     justify-content:center;
+     align-items: center;
+     color: white;
+     background: url('/imagens/naruto.png') center center/cover;
+     background-color: rgba(0, 0, 0, 0.2);
+     background-blend-mode: color;
+}
+.showcase-container{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo{
+    font-size: 5rem;
+}
+.escrito{
+    margin: 15px;
+    font-size: 1.1rem ;
+}
+/* Utility Classes*/
+.btn-primary{
+    background: #1ed760;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 60px;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 1px;
+}
+/* Footer*/
+.footer{
+    background:  rgb(158, 182, 23);
+    color: rgb(0, 0, 0);
+    padding: 50px 0;
+}
+.footer-content{
+    display: flex;
+    width: 100%;
+    margin: center ;
+    font: 12px;
+    padding: 1rem;
+    justify-content: center;
+    
+    
+}
+.footer-menu{
+    margin: 70px ;
+    list-style: none;
+    width: 8rem;
+    
+}
+.footer-menu p{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 0.8rem;
+}
+.footer-menu-item{
+    padding: 3px 0px 15px;
+    margin: 25px 0;
+    font: 25px;
+}
+/*Footer Socials */
+.socials{
+    display: flex;
+
+}
+.socials i{
+    margin: 0 20px;
+    font-size: 1.7rem;
+}
+/*Footer infor */
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 60%;
+    margin: auto;
+    font-weight: bold;
+    color: #919496;
+    font-size: 0.75rem;
+}
+.footer-info-itens{
+    display: flex;
+    list-style: none;
+}
+.footer-info-item{
+    margin: 0 10px;
+    
+}
+.country{
+    display: flex;
+    justify-content:  flex-end;
+    margin-bottom: 10px;
+    align-items:center ;
+}
+.brazil-flag{
+    height: 20px;
+    width: auto;
+    display: inline-block;
+    margin-left: 10px;
+}
